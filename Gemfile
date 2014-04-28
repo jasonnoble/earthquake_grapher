@@ -5,6 +5,12 @@ gem 'chartkick'
 gem 'groupdate'
 
 gem 'will_paginate', '~> 3.0.5'
+gem 'resque', :require => 'resque/server'
+gem 'resque-scheduler', :require => 'resque_scheduler/server'
+
+group :development do
+  gem 'foreman'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
