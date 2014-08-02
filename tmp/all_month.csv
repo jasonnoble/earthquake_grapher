@@ -1,4 +1,4 @@
-time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type
+time,latitude,longitude,depth,mag,magtype,nst,gap,dmin,rms,net,usgs_ident,updated,place,event_type
 2014-08-02T01:13:16.200Z,33.9535,-118.4143,14.7,1.7,Ml,13,93.6,0.01796631,0.41,ci,ci15533657,2014-08-02T01:15:54.389Z,"3km N of El Segundo, California",earthquake
 2014-08-02T00:49:42.000Z,63.081,-150.4065,100,2,ml,,,,0.85,ak,ak11346039,2014-08-02T01:01:12.251Z,"80km WSW of Cantwell, Alaska",earthquake
 2014-08-02T00:47:32.530Z,34.2823333,-117.0325,6.93,2.29,ml,85,21,0.03392,0.23,ci,ci15533649,2014-08-02T00:59:04.670Z,"10km NE of Running Springs, California",earthquake
