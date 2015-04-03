@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'byebug'
 gem 'chartkick'
-gem 'groupdate'
+gem 'groupdate'z
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
