@@ -4,7 +4,7 @@ class Earthquake < ActiveRecord::Base
   end
 
   def self.import_csv(file)
-    CSV.foreach(file.path, headers: true) do |row|
+    CSV.foreach(file, headers: true) do |row|
       Earthquake.create(row.to_hash)
     end
     Earthquake.count
