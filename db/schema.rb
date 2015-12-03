@@ -13,22 +13,22 @@
 
 ActiveRecord::Schema.define(version: 20140424022003) do
 
-  create_table "earthquakes", force: true do |t|
+  create_table "earthquakes", force: :cascade do |t|
     t.datetime "time"
-    t.decimal  "latitude",   precision: 9,  scale: 4
-    t.decimal  "longitude",  precision: 9,  scale: 4
-    t.decimal  "depth",      precision: 10, scale: 0
-    t.string   "mag"
-    t.string   "magtype"
-    t.string   "nst"
-    t.string   "gap"
-    t.string   "dmin"
-    t.string   "rms"
-    t.string   "net"
-    t.string   "usgs_ident"
-    t.string   "updated"
-    t.string   "place"
-    t.string   "event_type"
+    t.decimal  "latitude",               precision: 9,  scale: 4
+    t.decimal  "longitude",              precision: 9,  scale: 4
+    t.decimal  "depth",                  precision: 10
+    t.string   "mag",        limit: 255
+    t.string   "magtype",    limit: 255
+    t.string   "nst",        limit: 255
+    t.string   "gap",        limit: 255
+    t.string   "dmin",       limit: 255
+    t.string   "rms",        limit: 255
+    t.string   "net",        limit: 255
+    t.string   "usgs_ident", limit: 255
+    t.string   "updated",    limit: 255
+    t.string   "place",      limit: 255
+    t.string   "event_type", limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
